@@ -1,4 +1,4 @@
-import { Children } from "react";
+
 
  type Buttonprops={
     variant:"black"|"gradient" ;
@@ -7,7 +7,7 @@ import { Children } from "react";
     children: React.ReactNode;
 }
 
-let defaultstyle="text-white px-[12px] py-[12px] rounded-[5px] h-[44px]"
+let defaultstyle="text-white px-[28px] py-[12px] rounded-[5px] h-[44px] flex items-center justify-center font-poppins text-[16px] font-medium ";
 
 let sizestyle = {
   sm: "w-[127px]",

@@ -1,18 +1,24 @@
+import { Button } from "./UI/Button";
+
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center text-center mt-20 px-4">
-      <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+    <section className="flex flex-col items-center text-center mt-20 px-4 border font-poppins max-w-[749px]  mx-auto ">
+      <h1 className="text-[64px] font-semibold leading-20 tracking-normal ">
         Beautiful Landing Page <br /> Design for You
       </h1>
 
-      <p className="mt-6 max-w-xl text-gray-400 border border-green-500 px-4 py-2">
-        A good design is not only aesthetically pleasing, but also functional.
-        It should be able to solve the problem
+      <p className="mt-3 text-[18px] font-normal tracking-normal leading-7 h-20 text-gray-400   ">
+        A good design is not only aesthetically pleasing, but also <br />{" "}
+        functional. It should be able to solve the problem
       </p>
 
-      <button className="mt-8 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 px-6 py-3 text-sm font-semibold">
+      <Button
+        variant="gradient"
+        size="lg"
+        onClick={() => console.log("2nd button clicked ")}
+      >
         Download Template
-      </button>
+      </Button>
     </section>
   );
 };
