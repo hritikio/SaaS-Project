@@ -268,85 +268,97 @@ The main landing page featuring a pixel-perfect Figma design with hero section, 
 
 ---
 
+### Hero Page
+
+Clean and minimalist Hero interface with astonishing Layout and design
+
+![Hero Page](Frontend/images/Screenshot%202026-02-16%20030516.png)
+
+---
+
+### Feature Page
+
+ 6-card grid layout displaying key features with Custom card components with hover effects
+
+![Feature Page](Frontend/images/Screenshot%202026-02-16%20030550.png)
+
+---
+
+### Solar Card Page
+Unique interactive card design
+Space-themed visual element
+Custom graphics and animatio
+
+
+![Solar Card Page](Frontend/images/Screenshot%202026-02-16%20030559.png)
+
+---
+
+### Testimonial Page
+
+ Customer testimonial showcase
+ Social proof section
+ Clean testimonial card layout
+ 
+![Testimonial Page](Frontend/images/Screenshot%202026-02-16%20030634.png)
+
+---
+
+### Contact Page
+
+Comprehensive user management interface with:
+
+ Contact form or information display
+ User engagement component
+ Call-to-action for user interactio
+
+![Contact Page](Frontend/images/Screenshot%202026-02-16%20030713.png)
+
+---
+
+### Footer Page
+
+ Site-wide footer navigation
+ Company information and links
+ Responsive footer design
+
+![Footer Page](Frontend/images/Screenshot%202026-02-16%20030720.png)
+
+---
+
 ### Login Page
 
-Clean and minimalist login interface with email/password fields, validation, and signup link. Includes "Back to Home" navigation.
-
-![Login Page](Frontend/images/Screenshot%202026-02-16%20030516.png)
-
----
-
-### Signup Page
-
-User registration page with form validation, minimum password requirements, and link to login page.
-
-![Signup Page](Frontend/images/Screenshot%202026-02-16%20030550.png)
-
----
-
-### Dashboard - Light Mode
-
-Dashboard summary page showing user statistics, total users count, and status cards in light theme.
-
-![Dashboard Light Mode](Frontend/images/Screenshot%202026-02-16%20030559.png)
+ Profile information form 
+ Dark/Light theme toggle switch
+ Auto-redirect to dashboard after save
+ Clean form layout with labels
+ 
+![Login Page](Frontend/images/Screenshot%202026-02-16%20031753.png)
 
 ---
 
 ### Dashboard - Dark Mode
 
-Same dashboard with dark theme enabled, demonstrating the theme toggle functionality with persistent storage.
-
-![Dashboard Dark Mode](Frontend/images/Screenshot%202026-02-16%20030634.png)
-
----
-
-### Users Management Page
-
-Comprehensive user management interface with:
-
-- Search functionality (filter by name or email)
-- Sorting options (A-Z and Z-A)
-- Client-side pagination (5 users per page)
-- Data fetched from JSONPlaceholder API
-
-![Users Page](Frontend/images/Screenshot%202026-02-16%20030713.png)
+ 
+ Summary statistics cards (Total Users, Status)
+ User email and data display
+ Logout button in header
+ Navigation links to Users and Settings pages
+ 
+![Dashboard Dark Mode](Frontend/images/Screenshot%202026-02-16%20031809.png)
 
 ---
 
-### Settings Page
+### Setting Page
 
-User settings page featuring:
 
-- Profile information form (name and email)
-- Dark/Light theme toggle switch
-- Auto-navigation to dashboard after saving
-- Theme persistence across sessions
-
-![Settings Page](Frontend/images/Screenshot%202026-02-16%20030720.png)
-
----
-
-### Users Management - Dark Mode
-
-Users table with dark theme activated, showcasing the consistent dark mode styling across the application with proper contrast and readability.
-
-![Users Page Dark Mode](Frontend/images/Screenshot%202026-02-16%20031753.png)
-
----
-
-### Settings - Dark Mode
-
-Settings page in dark theme, demonstrating the theme toggle in action with dark background and adjusted UI elements for optimal viewing.
-
-![Settings Dark Mode](Frontend/images/Screenshot%202026-02-16%20031809.png)
-
----
-
-### User Search Functionality
-
-Demonstration of the real-time search feature filtering users by name or email, showing how the table dynamically updates based on search input.
-
-![User Search](Frontend/images/Screenshot%202026-02-16%20031819.png)
+ Dark/Light theme toggle with visual switch
+ Save Changes button with success message
+ Auto-navigation to dashboard after 1 second
+ Real-time theme switching without page reload
+ Supports both light and dark mode styling
+ 
+![Setting Page](Frontend/images/Screenshot%202026-02-16%20031819.png)
 
 ---
 
@@ -400,12 +412,6 @@ Users table showing pagination controls with multiple pages of data, navigation 
 - **Cons**: Additional dependency
 - **Tradeoff**: Interceptors simplified token management significantly.
 
-**Decision**: JSONPlaceholder for user data
-
-- **Pros**: Free, reliable, no backend implementation needed
-- **Cons**: Read-only, not real user data
-- **Tradeoff**: Perfect for demonstrating UI without building a full CRUD backend.
-
 ### Styling & Theming
 
 **Decision**: Tailwind CSS v4 with class-based dark mode
@@ -413,12 +419,6 @@ Users table showing pagination controls with multiple pages of data, navigation 
 - **Pros**: Utility-first, fast development, consistent design
 - **Cons**: Verbose className strings, requires configuration
 - **Tradeoff**: Speed of development justified the learning curve.
-
-**Decision**: Theme stored in localStorage
-
-- **Pros**: Persists across sessions, simple implementation
-- **Cons**: No server-side preference sync
-- **Tradeoff**: Client-side persistence is sufficient for a single-user application.
 
 ### Code Organization
 
