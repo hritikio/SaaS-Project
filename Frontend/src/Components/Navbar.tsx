@@ -1,10 +1,10 @@
-import Navsymbol from "../assets/Vector.svg"
+import Navsymbol from "../assets/Vector.svg";
 import { Button } from "./UI/Button";
-import Moon from "../assets/Moon.svg"
-
-
+import Moon from "../assets/Moon.svg";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative ">
       <nav className="relative   flex items-center justify-between px-11 py-6  max-w-[1200px] mx-auto overflow-hidden">
@@ -23,10 +23,10 @@ const Navbar = () => {
           </a>
           <Button
             variant="gradient"
-            size="lg"
-            onClick={() => console.log("btn 1st clicked")}
+            size="md"
+            onClick={() => navigate("/login")}
           >
-            Download Template
+            SingUp/Login
           </Button>
         </div>
       </nav>

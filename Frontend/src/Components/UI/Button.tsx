@@ -8,7 +8,7 @@
     children: React.ReactNode;
 }
 
-let defaultstyle=" cursor-pointer text-white px-[28px] py-[12px] rounded-[5px] h-[44px] flex items-center justify-center font-poppins text-[16px] font-medium  whitespace-nowrap ";
+let defaultstyle=" cursor-pointer text-white px-[28px] py-[12px] rounded-[5px] h-[44px] flex items-center justify-center font-poppins text-[16px] font-medium  whitespace-nowrap hover:opacity-80 hover:translate-y-[-1px] transition-opacity duration-100 ";
 
 let sizestyle = {
   sm: "w-[127px]",

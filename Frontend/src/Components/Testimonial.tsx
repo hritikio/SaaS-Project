@@ -11,7 +11,7 @@ import Moon from "../assets/Moon.svg"
 const Testimonial = () => {
   return (
     <div>
-      <div className="w-[1440px] h-[725px] font-poppins  mt-10 flex flex-col items-center mx-auto w-screen bg-[#18181C]">
+      <div className="w-[1440px] h-[725px] font-poppins  mt-10 flex flex-col items-center mx-auto w-full bg-[#18181C]">
         <h1 className="mt-28 font-semibold text-5xl leading-16 text-center">
           Companies we Worked
           <br /> With in Since 2015
