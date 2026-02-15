@@ -4,10 +4,11 @@
     variant:"black"|"gradient" ;
     size: "sm"|"md" | "lg";
     onClick?:()=>void;
+
     children: React.ReactNode;
 }
 
-let defaultstyle="text-white px-[28px] py-[12px] rounded-[5px] h-[44px] flex items-center justify-center font-poppins text-[16px] font-medium ";
+let defaultstyle="text-white px-[28px] py-[12px] rounded-[5px] h-[44px] flex items-center justify-center font-poppins text-[16px] font-medium  whitespace-nowrap ";
 
 let sizestyle = {
   sm: "w-[127px]",
