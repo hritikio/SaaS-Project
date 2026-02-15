@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import FeatureSection from "./Components/FeatureSection";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FeatureSection /> 
       <Testimonial/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
