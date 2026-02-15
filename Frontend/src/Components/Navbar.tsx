@@ -5,10 +5,10 @@ import { Button } from "./UI/Button";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-11 py-6 border max-w-[1440px] mx-auto  ">
-      <div className="flex w-32 ">
-        <img src={Navsymbol} className="bg-black   " alt="icon " />
-        <h1 className="text-xl font-semibold"> Squid</h1>
+    <nav className="flex items-center justify-between px-11 py-6 border max-w-[1200px] mx-auto overflow-x-hidden">
+      <div className="flex w-32  items-center justify-between ">
+        <img src={Navsymbol} className="bg-black w-[41px] h-[33px]  " alt="icon " />
+        <h1 className="text-3xl font-semibold"> Squid</h1>
       </div>
 
       <div className="flex items-center   gap-8">
