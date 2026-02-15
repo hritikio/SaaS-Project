@@ -7,7 +7,7 @@ import Ellipse10 from "../assets/Ellipse10.svg";
 import Planet from "../assets/Planet.svg";
 const SolarSystemCard = () => {
   return (
-    <div className="flex size-175 w-[1300px] border justify-between items-center mt-5 mx-auto  ">
+    <div className="flex size-175 w-[1300px]  justify-between items-center mt-5 mx-auto  ">
       <div className=" relative w-[55%] ">
         <img src={Solar} alt="solar system" />
         <img src={Ellipse11} alt="ellipse" className=" absolute top-50 left-38 " />

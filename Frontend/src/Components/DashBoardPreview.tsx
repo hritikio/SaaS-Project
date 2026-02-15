@@ -23,7 +23,7 @@ const DashBoardPreview = () => {
       <img 
         src={Subtract}
         alt=""
-        className=" border pointer-events-none absolute left-1/2 top-[210px] z-0  w-screen max-w-[1440px] -translate-x-1/2"
+        className="  pointer-events-none absolute left-1/2 top-[210px] z-0  w-screen max-w-[1440px] -translate-x-1/2"
       />
       <div className="relative z-10 bg-[#131415] w-full h-full flex items-center justify-around rounded-[28px]">
         <div className="w-61.5 h-115 bg-[#222228] rounded-[20px] ">

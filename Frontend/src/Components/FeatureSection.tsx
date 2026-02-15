@@ -10,7 +10,7 @@ import SolarSystemCard from "./SolarSystemCard";
 const FeatureSection = () => {
   return (
     <div className="font-poppins">
-      <div className=" mt-[175px] text-white  max-w-[1200px] flex flex-col justify-center align-center border mx-auto ">
+      <div className=" mt-[175px] text-white  max-w-[1200px] flex flex-col justify-center align-center  mx-auto ">
         <h1 className="text-5xl font-semibold  leading-20 ">Feature Boxes</h1>
         <p className="text-[#9E9E9E] mb-8">
           {" "}
@@ -20,7 +20,7 @@ const FeatureSection = () => {
         <div className="grid grid-cols-3 gap-y-7.5 ">
           <Card icon={group102} />
           <Card icon={group} />
-          <Card icon={group129} />
+          <Card icon={group129} nobox={true} />
           <Card icon={group103} />
           <Card icon={group105} />
           <Card icon={group106} />
