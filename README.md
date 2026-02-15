@@ -262,28 +262,99 @@ Response:
 
 ### Landing Page
 
-_[Screenshot: Landing page with hero section, features, and navbar]_
+The main landing page featuring a pixel-perfect Figma design with hero section, features showcase, and navigation bar.
+
+![Landing Page](Frontend/images/Screenshot%202026-02-16%20030507.png)
+
+---
 
 ### Login Page
 
-_[Screenshot: Login form with email and password fields]_
+Clean and minimalist login interface with email/password fields, validation, and signup link. Includes "Back to Home" navigation.
+
+![Login Page](Frontend/images/Screenshot%202026-02-16%20030516.png)
+
+---
 
 ### Signup Page
 
-_[Screenshot: Signup form with validation]_
+User registration page with form validation, minimum password requirements, and link to login page.
 
-### Dashboard
+![Signup Page](Frontend/images/Screenshot%202026-02-16%20030550.png)
 
-_[Screenshot: Dashboard with summary cards in light mode]_
-_[Screenshot: Dashboard with summary cards in dark mode]_
+---
 
-### Users Page
+### Dashboard - Light Mode
 
-_[Screenshot: Users table with search, sort, and pagination]_
+Dashboard summary page showing user statistics, total users count, and status cards in light theme.
+
+![Dashboard Light Mode](Frontend/images/Screenshot%202026-02-16%20030559.png)
+
+---
+
+### Dashboard - Dark Mode
+
+Same dashboard with dark theme enabled, demonstrating the theme toggle functionality with persistent storage.
+
+![Dashboard Dark Mode](Frontend/images/Screenshot%202026-02-16%20030634.png)
+
+---
+
+### Users Management Page
+
+Comprehensive user management interface with:
+
+- Search functionality (filter by name or email)
+- Sorting options (A-Z and Z-A)
+- Client-side pagination (5 users per page)
+- Data fetched from JSONPlaceholder API
+
+![Users Page](Frontend/images/Screenshot%202026-02-16%20030713.png)
+
+---
 
 ### Settings Page
 
-_[Screenshot: Settings page with profile form and theme toggle]_
+User settings page featuring:
+
+- Profile information form (name and email)
+- Dark/Light theme toggle switch
+- Auto-navigation to dashboard after saving
+- Theme persistence across sessions
+
+![Settings Page](Frontend/images/Screenshot%202026-02-16%20030720.png)
+
+---
+
+### Users Management - Dark Mode
+
+Users table with dark theme activated, showcasing the consistent dark mode styling across the application with proper contrast and readability.
+
+![Users Page Dark Mode](Frontend/images/Screenshot%202026-02-16%20031753.png)
+
+---
+
+### Settings - Dark Mode
+
+Settings page in dark theme, demonstrating the theme toggle in action with dark background and adjusted UI elements for optimal viewing.
+
+![Settings Dark Mode](Frontend/images/Screenshot%202026-02-16%20031809.png)
+
+---
+
+### User Search Functionality
+
+Demonstration of the real-time search feature filtering users by name or email, showing how the table dynamically updates based on search input.
+
+![User Search](Frontend/images/Screenshot%202026-02-16%20031819.png)
+
+---
+
+### Pagination & Navigation
+
+Users table showing pagination controls with multiple pages of data, navigation between pages, and page number indicators for easy data browsing.
+
+![Pagination](Frontend/images/Screenshot%202026-02-16%20031839.png)
 
 ## 🤔 Design Decisions & Tradeoffs
 

@@ -75,6 +75,12 @@ const Login = () => {
             Sign up
           </Link>
         </p>
+
+        <p className="mt-2 text-center text-sm">
+          <Link to="/" className="text-gray-600 hover:underline">
+            ← Back to Home
+          </Link>
+        </p>
       </div>
     </div>
   );
